@@ -9,7 +9,7 @@ Theme for [Ghost](https://ghost.org) blogging platform.
 
 ## Demo
 
-Puedes entrar a mi sitio personal para verlo: [gferreira.me](http://gferreira.me)
+Puedes entrar a mi sitio personal para verlo: [DQuiroz.com](http://dquiroz.com)
 ![gferreira.me screenshot](http://res.cloudinary.com/gatec21/image/upload/v1416866665/gil_blog_lfkr9g.png)
 
 
