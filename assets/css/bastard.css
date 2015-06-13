@@ -2143,7 +2143,23 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media (max-width: 767px) { .visible-xs { display: block !important; }
   table.visible-xs { display: table; }
   tr.visible-xs { display: table-row !important; }
-  th.visible-xs, td.visible-xs { display: table-cell !important; } }  .post-excerpt p { font-family: Arial; text-align: left; padding-top: 2rem; } .post-excerpt img { width: 90%; display: block; }
+  th.visible-xs, td.visible-xs { display: table-cell !important; } }  .post-excerpt p { font-family: Arial; text-align: justify; text-justify: inter-word; padding-top: 2rem; } /*.post img { float: left; //margin: 0 5px 15px 0;// //width: 400px;//   position: relative;
+  overflow: hidden;
+  cursor: pointer;
+    //margin: auto;//
+  background-color: white;
+  padding-right: 1rem; 
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; }*/
+  .post img {
+	max-width: 100%;
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	padding: -1em -1em -1em -1em;
+
+	}
 @media (max-width: 767px) { .visible-xs-block { display: block !important; } }
 
 @media (max-width: 767px) { .visible-xs-inline { display: inline !important; } }
@@ -3382,7 +3398,7 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 .top-ornament { background: url(../images/top-ornament.svg) no-repeat top center; margin: 0 auto; position: relative; height: 59px; border-top: rgba(235, 242, 246, 0.29) 1px solid; }
 
 /* Every post, on every page, gets this style on its <article> tag */
-.post { position: relative; width: 80%; max-width: 900px; margin: 4rem auto; padding: 4rem 4rem 4rem 4rem; word-break: break-word; hyphens: auto; /*border: 5px solid #757575;*/ overflow: hidden; background: #FFF; box-shadow: 2px 0px #ccc; border-bottom: solid 5px #757575; font-size: 16px; }
+.post { position: relative; width: 80%; max-width: 100%; margin: 4rem auto; padding: 4rem 4rem 4rem 4rem; word-break: break-word; hyphens: auto; /*border: 5px solid #757575;*/ overflow: hidden; background: #FFF; box-shadow: 20px 20px #ccc; border-bottom: solid 5px #757575; font-size: 16px; }
 .post:after {
     border: 0;
     height: 1px;
@@ -3397,12 +3413,19 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 .post-title a { text-decoration: none; }
 
 .post-excerpt p { margin: 1.6rem 0 0 0; font-size: 16px; line-height: 2em; color: #828282; width: 90%; text-align: left; /*padding: 0 0 0 4rem;*/ }
-.post-excerpt img { float: left; margin: 0 5px 15px 0; width: 50%;   position: relative;
+/*.post img { float: left; //margin: 0 5px 15px 0;// //width: 400px;//   position: relative;
   overflow: hidden;
   cursor: pointer;
     margin: auto;
   background-color: white;
-  padding-right: 1rem; }
+  padding-right: 1rem; 
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;*/ }
+.post img {
+	width: 100px;
+
+}
 
 .post-meta { display: inline-block; margin: 0 0 5px 0; font-family: 'Open Sans', sans-serif; font-size: 1.5rem; color: #9EABB3; }
 .post-meta a { color: #9EABB3; text-decoration: none; }

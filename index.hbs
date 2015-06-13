@@ -36,6 +36,11 @@
     {{#foreach posts}}
 
     <article class="{{post_class}}" >
+        <figure class="Post-image">
+             {{#if image}}
+               <img src="{{image}}"></img> 
+            {{/if}} 
+        </figure> 
         <header class="post-header">
                      
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
@@ -43,11 +48,7 @@
         </header>
         <section class="post-excerpt">
 
-            <div>
-                 {{#if image}}
-                   <img src="{{image}}"></img> 
-                  {{/if}} 
-            </div>               
+              
              
             <p>
 
