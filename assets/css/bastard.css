@@ -3398,7 +3398,7 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 .top-ornament { background: url(../images/top-ornament.svg) no-repeat top center; margin: 0 auto; position: relative; height: 59px; border-top: rgba(235, 242, 246, 0.29) 1px solid; }
 
 /* Every post, on every page, gets this style on its <article> tag */
-.post { position: relative; width: 80%; max-width: 100%; margin: 4rem auto; padding: 4rem 4rem 4rem 4rem; word-break: break-word; hyphens: auto; /*border: 5px solid #757575;*/ overflow: hidden; background: #FFF; box-shadow: 20px 20px #ccc; border-bottom: solid 5px #757575; font-size: 16px; }
+.post { position: relative; width: 80%; max-width: 100%; margin: 4rem auto; padding: 4rem 4rem 4rem 4rem; word-break: break-word; hyphens: auto; /*border: 5px solid #757575;*/ overflow: hidden; background: #FFF; box-shadow: 20px 20px #ccc; border-bottom: solid 5px #757575; font-size: 16px; font-family: Arial; }
 .post:after {
     border: 0;
     height: 1px;
@@ -3642,11 +3642,11 @@ ul {  list-style-type: none; }
   margin-bottom: 0.625rem;
   display: inline-block;
   padding: 0.625rem 1.875rem;
-  border: 0.1875rem solid #23222d;
+  border: 2px solid #000;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   color: #23222d;
-  font-size: 0.75rem;
+  font-size: 11px;
   -webkit-transition: background-color .3s;
   transition: background-color .3s; }
