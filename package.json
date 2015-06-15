@@ -1,17 +1,17 @@
 {
-  "name": "Swaggy Bastard",
-  "version": "1.0",
-  "description": "A Boilerplate Theme for Ghost forked from Bastard",
+  "name": "Thin Bastard",
+  "version": "0.1.0",
+  "description": "A minimalist theme for ghost",
   "author": {
-    "name": "Gil",
-    "email": "gfgilly@gmail.com",
-    "url": "http://gferreira.me"
+    "name": "Diego Quiroz",
+    "email": "DIEGO00AQ@gmail.com",
+    "url": "http://DQuiroz.com"
   },
-  "homepage": "https://github.com/misterGF/SwaggyBastard",
+  "homepage": "https://github.com/DIEGO00AQ/Thin-Bastard",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mistergf/Swaggy-Bastard.git"
+    "url": "https://github.com/DIEGO00AQ/Thin-Bastard"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
