@@ -1,4 +1,4 @@
-Swaggy Bastard Theme for Ghost
+Thin Bastard Theme for Ghost
 ==================
 
 Thin Bastard is a fork of <a href="https://github.com/karloespiritu/Bastard"><b>Swaggy</b> Bastard!</a>
