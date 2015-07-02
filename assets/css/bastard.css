@@ -187,7 +187,7 @@
 
 @charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-html { font-family: 'Open Sans'; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+html { font-family: "Open Sans"; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; font-family: 'Open Sans' }
 
@@ -3207,7 +3207,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 /* ========================================================================== 2. General - Setting up some base styles ========================================================================== */
 html { height: 100%; max-height: 100%; font-size: 62.5%; }
 
-body { color: white; height: 100%; max-height: 100%; font-family: 'Noto Serif', serif; font-size: 1.5rem; line-height: 1.6em; color: #848482; background-color: white; }
+body { color: white; height: 100%; max-height: 100%; font-family: 'Noto Serif', serif; font-size: 1.5rem; line-height: 1.6em; color: #848482; background-color: #F2F2F2; }
 
 ::-moz-selection, ::selection { color: #222; background: #D6EDFF; text-shadow: none; }
 
@@ -3418,7 +3418,7 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
   hyphens: auto;
   overflow: hidden;
   background: #FFF;
-  box-shadow: 10px 10px #ccc;
+  box-shadow: 0 6px 12px 1px #aaa;
   border-bottom: solid 5px #757575;
   font-size: 16px;
   font-family: Arial;
@@ -3436,11 +3436,14 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 .post-title {  margin: 0; text-align: center }
 .post-title a { text-decoration: none; }
 
-.post-excerpt p {
+.post-excerpt {
   font-family: Arial;
+}
+.post-excerpt p {
+  display: inline;
   text-align: justify;
   text-justify: inter-word;
-  padding-top: 2rem;
+  padding: 2rem 2rem 0 0;
 }
 
 .post figure {
@@ -3670,19 +3673,14 @@ ul {  list-style-type: none; }
 .post-read-more-btn {
 /*margin-top: 0.625rem;
   margin-bottom: 0.625rem;*/
-  display: inline-block;
-  padding: 0.625rem 1.875rem;
-  border: 2px solid #757575;
-  border-bottom: 0;
+  display: block;
+  padding: 0.5em .5em;
   font-weight: 900;
   text-transform: uppercase;
-  text-align: center;
+  justify-content: space-around;
   color: #23222d;
   font-size: 11px;
   -webkit-transition: background-color .3s;
   transition: background-color .3s; 
   display: flex;
    }
-   .dsq-brlink {
-  margin: 0 1em;
- }
