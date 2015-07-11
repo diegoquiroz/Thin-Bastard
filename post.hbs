@@ -6,10 +6,16 @@
 <main class="content" role="main">
 
     <article class="{{post_class}}">
-
+        
         {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
 
+        <figure class="in-Post-image">
+             {{#if image}}
+               <img src="{{image}}"></img> 
+            {{/if}} 
+        </figure> 
+        
             <span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='MMMM Do, YYYY'}}</time> {{tags prefix="on " separator=" | "}}</span>
 
             <h1 class="post-title">{{{title}}}</h1>

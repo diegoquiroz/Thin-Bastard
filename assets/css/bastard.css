@@ -193,7 +193,7 @@ body { margin: 0; font-family: 'Open Sans' }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
 
-main { background: #F2F2F2; }
+main { background: #F2F2F2; padding: 1.5em; }
 
 audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
 
@@ -2147,26 +2147,30 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 
 @media (max-width: 767px) { .visible-xs-block { display: block !important; }
+    
 .post-excerpt {
-  margin: 0 2em;
-  font-size: 12px;
+  margin: 0 1em;
+  font-size: 14px;
   padding: 0;
+
+}
+.post figure {
+    margin: 0 auto;
 }
 .post-read-more-btn {
 /*margin-top: 0.625rem;
   margin-bottom: 0.625rem;*/
-  display: inline-block;
-  padding: 0.625rem 1.875rem;
-  border: 2px solid #757575;
-  border-bottom: 0;
+  display: block;
+  padding: 0.5em .5em;
   font-weight: 900;
   text-transform: uppercase;
-  text-align: center;
-  color: #23222D;
+  justify-content: space-around;
+  color: #23222d;
   font-size: 11px;
   -webkit-transition: background-color .3s;
   transition: background-color .3s; 
-   } 
+  display: flex;
+   }
 .dsq-brlink {
   padding: 0 1em;
  }
@@ -3409,10 +3413,11 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
+  display: inline-block;
   position: relative;
-  width: 80%;
+    width: auto;
   max-width: 100%;
-  margin: 4rem auto;
+  margin: 0 2% 1em 0;
   /*padding: 4rem 4rem 4rem 4rem;*/
   word-break: break-word;
   hyphens: auto;
@@ -3421,7 +3426,7 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
   box-shadow: 0 6px 12px 1px #aaa;
   border-bottom: solid 5px #757575;
   font-size: 16px;
-  font-family: Arial;
+  font-family: "Lato", "Open Sans";
 }
 .post:after {
     border: 0;
@@ -3437,24 +3442,28 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 .post-title a { text-decoration: none; }
 
 .post-excerpt {
-  font-family: Arial;
+  font-family: "Lato" sans-serif;
+  font-weight: 400;
+  margin: 0 1em;
 }
 .post-excerpt p {
   display: inline;
   text-align: justify;
   text-justify: inter-word;
   padding: 2rem 2rem 0 0;
+  
 }
+
+
 
 .post figure {
   margin: 0;
 }
 
 .post img {
-  float: left;
+  /*float: left;*/
 	max-width: 100%;
-  width: 350px;
-  margin: 0 1em 0 0;
+    width: auto;
 
 }
 
