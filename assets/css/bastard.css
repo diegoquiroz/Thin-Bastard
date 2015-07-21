@@ -3479,11 +3479,13 @@ h1.post-title { /* color: #005B9A; */ color: #000; }
 .post-template .content { overflow: hidden; }
 .post-template section { font-size: 16px;
   font-family: 'lato', 'sans-serif';
-  margin: 1em 1em;
-  font-weight: 300; }
+  margin: 1em 1.5em;
+  font-weight: 300;
+  max-width: 900px; }
 .post-template .post { 
     margin-top: 0; border-bottom: none; padding-bottom: 0; 
     width: auto; font-size: 18px; height: auto; margin: 0;
+    text-align: center; text-align: -webkit-center;
 }
 .post-template .post figure img {
     width: 100%; background-color: #191919;
