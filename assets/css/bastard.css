@@ -3715,12 +3715,14 @@ ul {  list-style-type: none; }
 /* ================================== Extra Queries ==================== */
 @media only screen and (min-width: 900px) {
     main {
-        flex-direction: row;
+        flex-flow: row wrap;
     }
+/*
     .post{
         width: 900px;
         max-width: 100%;
     }
+*/
     .post-template .content {
         overflow: hidden; 
         flex-direction: column;
